@@ -1,0 +1,7 @@
+graph {
+    1 [style=filled, fillcolor = red];
+    2 [style=filled, fillcolor = dodgerblue1];
+    3 [style=filled, fillcolor = red];
+1 -- 2;
+2 -- 3;
+}

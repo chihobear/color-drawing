@@ -1,0 +1,14 @@
+graph {
+    1 [style=filled, fillcolor = red];
+    2 [style=filled, fillcolor = red];
+    3 [style=filled, fillcolor = dodgerblue1];
+    4 [style=filled, fillcolor = green];
+    5 [style=filled, fillcolor = yellow];
+1 -- 4;
+1 -- 5;
+2 -- 3;
+2 -- 5;
+3 -- 4;
+3 -- 5;
+4 -- 5;
+}
